@@ -1,16 +1,24 @@
 body{
     font-family: arial;
-    color: #333;
+    color: #807a7a;
+    background: #363636;
 }
+
 h1{
     font-weight: normal;
     margin: 20px auto;
     text-align: center;
+    color: red;
 }
+
 form{
     width: 500px;
     margin: 20px auto;
+    box-shadow:  0 0 30px rgba(0,0,0,.75);
+    padding: 20px;
+    border-radius: 10px;
 }
+
 input{
     display: block;
     padding: 8px 16px;
@@ -19,6 +27,12 @@ input{
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
+    color: rgb(141, 141, 141);
+    background: #474747;
     border: 3px solid #ccc;
     outline: none !important;
+}
+
+input:focus{
+    border-color: red;
 }
